@@ -12,7 +12,7 @@ output:
 
 ```{r Defaults, echo=FALSE, error=FALSE, warning=FALSE, message=FALSE}
 
-curpar <- par()                     # to restore at the end
+curpar <-  par()                     # to restore at the end
 
 # set the default working directory
 curdir <- getwd()                   # to restore at the end too
